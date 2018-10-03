@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT:400,700');
+
+h1{
+  font-family: 'Cabin', sans-serif;
+  color: #DBFF76;
+}
+
+h2{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  color: #E1FF8E;
+}
+
+h3{
+  font-family: 'Cabin', sans-serif;
+  color: #98B06F;
+}
+p{
+  font-family: 'Old Standard TT', serif;
+  font-style: italic;
+  color: #F8FFE6;
+}
+body{
+  background-color: #465033;
+}
+
+header, main{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
