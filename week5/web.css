@@ -17,8 +17,11 @@ nav ul{
     background-color: #222;
 }
 
-nav li {
-    float: left;
+nav li{
+  float: left;
+}
+
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -27,7 +30,7 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: yellow;
+    background-color: #A2A2A2;
 }
 
 #right{
@@ -44,16 +47,13 @@ nav li a:hover {
   height: 300px;
 }
 
-.contentBox{
-  padding: 0 0 0 0;
-}
-
 footer{
   clear: both;
 }
 
-main{
-  clear: both;
+.contentBox{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #Section1{
@@ -61,11 +61,13 @@ main{
   background-color: #cccccc;
   float: left;
 }
+
 #Section2{
   width: 40%;
   background-color: #dddddd;
   float: left;
 }
+
 #Section3{
   width: 30%;
   background-color: #cccccc;
@@ -74,5 +76,6 @@ main{
 
 body{
   max-width: 800px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
